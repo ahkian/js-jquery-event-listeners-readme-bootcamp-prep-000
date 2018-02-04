@@ -28,6 +28,7 @@ function pressIt() {
 }
 
 function submitIt(){
-  $("form")
+  $("form").on("submit", function(){
+    console.log(alert("Your form is going to be submitted now."))
+  })
 }
-
