@@ -22,7 +22,7 @@ function frameIt() {
 }
 
 function pressIt() {
-  $("form input#typing").on("keydowm", function(){
+  $("form input#typing").on("keydowm", function(key){
     if (key.which === 71 ){console.log("You pressed g!")}
   })
 }
