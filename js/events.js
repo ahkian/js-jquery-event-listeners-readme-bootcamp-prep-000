@@ -13,7 +13,7 @@ function getIt() {
 }
 
 function frameIt() {
-  var image = $("img")
+  var image = $("img")[0]
   $("img").on("load", function(){
     image.setAttribute('class', 'tasty')
   })
