@@ -6,15 +6,6 @@ $(document).ready(function(){
 
 });
 
-$("form").on("submit", function() {
-  if ($("input:forst").val() === "correct") {
-    alert('your form is going to be submitted now');
-    return;
-  }
-  alert("you entered the wrong value");
-  return;
-});
-
 function getIt() {
   $("p").on("click", function(){
     alert('Hey!')
@@ -26,4 +17,8 @@ function frameIt() {
   $("img").on("load", function(){
     image.setAttribute('class', 'tasty')
   })
+}
+
+function pressIt() {
+  
 }
