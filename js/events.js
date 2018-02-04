@@ -20,5 +20,7 @@ function frameIt() {
 }
 
 function pressIt() {
-  
+  $("form input#typing").on("keydowm", function(){
+    if (key.which === ){}
+  })
 }
