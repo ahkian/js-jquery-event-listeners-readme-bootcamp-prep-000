@@ -24,6 +24,6 @@ function getIt() {
 function frameIt() {
   var image = $("img")
   $("img").on("load", function(){
-    image.setAttribute('class', )
+    image.setAttribute('class', 'tasty')
   })
 }
