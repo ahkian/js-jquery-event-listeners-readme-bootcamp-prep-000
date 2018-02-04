@@ -22,7 +22,8 @@ function getIt() {
 }
 
 function frameIt() {
+  var image = $("img")
   $("img").on("load", function(){
-    
+    image.setAttribute()
   })
 }
