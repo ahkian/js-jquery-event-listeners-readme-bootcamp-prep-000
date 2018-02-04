@@ -26,3 +26,8 @@ function pressIt() {
     if (key.which === 71 ){console.log("You pressed g!")}
   })
 }
+
+function submitIt(){
+  
+}
+
